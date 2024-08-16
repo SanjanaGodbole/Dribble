@@ -1,0 +1,193 @@
+body
+{
+    margin: 0;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.nav-wrapper
+{
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+   
+
+   
+}
+
+.menu
+{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+   
+    
+    
+}
+
+.nav-wrap
+{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+   
+}
+.logo
+{
+    height: 100px;
+}
+
+
+.search-box
+{
+    padding: 10px;
+    border-radius: 18px;
+    border: 1px solid #eee;
+    background-color:#eeeeee4f;
+}
+
+.search-icon
+{
+    position: absolute;
+    right:280px;
+    top:43px;
+}
+
+.login-btn
+{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+   
+}
+
+.signup-btn
+{
+    padding: 0px 24px;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.loginInInfo
+{
+    display: flex;
+    gap:20px;
+}
+
+.container
+{
+    padding: 64px 250px;
+}
+
+.title
+{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.profile-img
+{
+  border-radius: 50%;
+  height: 50px;
+}
+
+.profile
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-top: 10px;
+     display: flex;
+    justify-content: space-between;
+   
+}
+.follow-btn
+{
+    font-size: 12px;
+    font-weight: 100;
+    color: #a7a3a3fa;
+}
+
+.profile-desc{
+ display: flex;
+ gap:20px;
+ align-items: center;
+}
+
+.like-btn
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d6d4d4;
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+.save-btn
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d6d4d4;
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+.main-img
+{
+    height: 500px;
+    width: 900px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.graphicDesignInfo
+{
+    padding-left: 100px;
+    padding-top: 35px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.ul-info
+{
+    padding-left: 100px;
+    list-style-type:none;
+    font-size: 22px;
+}
+
+/* .li-info
+{
+    list-style-image: url("https://www.tutorialspoint.com/static/images/cyber-security.svg");
+} */
+
+.underline
+{
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    text-underline-offset:8px;
+}
+
+.main-img-1
+{
+    height: 500px;
+    width: 900px;
+    border-radius: 14px;
+    object-fit: cover; 
+    padding-top: 60px;
+}
